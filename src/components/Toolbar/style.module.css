@@ -1,0 +1,43 @@
+@media(min-width: 500px){
+    .Toolbar {
+
+        height: 70px;
+        width: 100%;
+        background: teal;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0 20px;
+        z-index: 90;
+    
+    }
+    .Hamburger {
+        display: none;
+    }
+}
+
+
+
+@media(max-width:500px){
+    .Menu {
+        display: none;
+    }
+    .Toolbar {
+        height: 70px;
+        width: 100%;
+        background: teal;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 0 20px;
+        z-index: 90;
+    }
+}
