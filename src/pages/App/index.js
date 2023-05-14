@@ -28,7 +28,7 @@ function App() {
         
       </header>
       <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/dream" element={<Home />} />
           <Route path="/register" element={<Register />} />
           <Route path="/contact" element={<Contact />} />
       </Routes>

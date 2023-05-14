@@ -11,7 +11,7 @@ const Menu = (props) => {
   return (
     <div className={css.Menu}>
       <ul>
-        <MenuItem closeSidebar={props.closeSidebar}  to="/">Нүүр</MenuItem>
+        <MenuItem closeSidebar={props.closeSidebar}  to="/dream">Нүүр</MenuItem>
         <MenuItem closeSidebar={props.closeSidebar}   to="/register">Бүртгүүлэх</MenuItem>
         <MenuItem closeSidebar={props.closeSidebar}   to="/contact">Холбоо барих</MenuItem>
       </ul>
